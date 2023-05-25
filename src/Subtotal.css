@@ -1,0 +1,33 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 85px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    
+}
+.subtotal-gift{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.subtotal-gift > input{
+margin-right: 5px;
+}
+.subtotal_button{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #846a29 #846a29;
+    color: #111;
+}
+
+/* Project Console: https://console.firebase.google.com/project/fir-b528c/overview
+Hosting URL: https://fir-b528c.web.app */
